@@ -1,0 +1,25 @@
+************************EOP新模版批量生成********************************
+1、程序 swagger文件准备，统一存在相同目录
+2、参数设置
+    Integer  i=0;编号
+    String codeHead="API_CRMCUS_T";//应用编号头
+    String apiBasePath="";//基础路径
+    String apiUrl="HTTP://10.145.167.229:8080";//环境地址
+    String engineName="客户引擎";//引擎名称
+    static String yamFileName="";//文件地址
+    String apiResTime="5";  //5秒超时
+    String eopFileExportFile="C:\\workshop\\mt\\xls\\test0305.xls";  //导出文件名称及目录
+    static String fileTemplate="C:\\workshop\\mt\\src\\main\\resources\\templates";模版文件目录
+    String templateFileName="/eopautotest.xml";//模版名称
+ 3、运行run 方式  importEopFile类
+
+ ************************** 切割 swagger文件******************************
+
+1、程序 swagger文件准备，统一存在相同目录
+2、指定预切割文件名
+  String data = fu.readToString("C:\\workshop\\mt\\new 7.txt");
+  3、运行run parseSwwager
+  4、生成文件在当前项目目录下
+  swagger年月日命令
+
+  ****************************生成eop申请电子表格（复杂）*************************************

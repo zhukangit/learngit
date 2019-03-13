@@ -1,0 +1,26 @@
+<Row ss:AutoFitHeight="0">
+<Cell ss:MergeDown="3" ss:StyleID="s66"><Data ss:Type="String">post</Data></Cell>
+<Cell ss:MergeDown="3" ss:StyleID="s79"><Data ss:Type="String">/customerorder/</Data></Cell>
+<Cell ss:MergeDown="1" ss:StyleID="s67"><Data ss:Type="String">输入参数</Data></Cell>
+        <Cell ss:StyleID="s72"><Data ss:Type="String">1</Data></Cell>
+        <Cell ss:StyleID="s72"><Data ss:Type="String">test</Data></Cell>
+        <Cell ss:StyleID="s72"><Data ss:Type="String">0-1</Data></Cell>
+        <Cell ss:StyleID="s72"><Data ss:Type="String">贪吃货</Data></Cell>
+        <Cell ss:StyleID="s72"/>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell ss:Index="3" ss:StyleID="s74"><Data ss:Type="String">输入报文样例</Data></Cell>
+<Cell ss:MergeAcross="4" ss:StyleID="s87"><Data ss:Type="String">这里是欢乐101</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell ss:Index="3" ss:MergeDown="1" ss:StyleID="s67"><Data ss:Type="String">输出参数</Data></Cell>
+            <Cell ss:StyleID="s72"><Data ss:Type="String">1</Data></Cell>
+            <Cell ss:StyleID="s72"><Data ss:Type="String">test</Data></Cell>
+            <Cell ss:StyleID="s72"><Data ss:Type="String">1900-01-01</Data></Cell>
+            <Cell ss:StyleID="s72"><Data ss:Type="String">贪吃货</Data></Cell>
+            <Cell ss:StyleID="s72"><Data ss:Type="String">值2</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell ss:Index="3" ss:StyleID="s67"><Data ss:Type="String">输出报文样例</Data></Cell>
+<Cell ss:MergeAcross="4" ss:StyleID="s72"><Data ss:Type="String">这是全是骗子</Data></Cell>
+</Row>

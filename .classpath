@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="main/resources/|main/java/|test/java/" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/accessors-smart-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/android-json-0.0.20131108.vaadin1.jar"/>
+	<classpathentry kind="lib" path="lib/asm-5.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/assertj-core-3.9.1.jar"/>
+	<classpathentry kind="lib" path="lib/avalon-framework-4.1.3.jar"/>
+	<classpathentry kind="lib" path="lib/byte-buddy-1.7.11.jar"/>
+	<classpathentry kind="lib" path="lib/byte-buddy-agent-1.7.11.jar"/>
+	<classpathentry kind="lib" path="lib/classmate-1.3.4.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/fastjson-1.2.51.jar"/>
+	<classpathentry kind="lib" path="lib/freemarker-2.3.28.jar"/>
+	<classpathentry kind="lib" path="lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="lib/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate-validator-6.0.12.Final.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-4.5.6.jar"/>
+	<classpathentry kind="lib" path="lib/httpcore-4.4.10.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-annotations-2.9.0.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-core-2.9.6.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-databind-2.9.6.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-datatype-jdk8-2.9.6.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-datatype-jsr310-2.9.6.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-module-parameter-names-2.9.6.jar"/>
+	<classpathentry kind="lib" path="lib/javax.annotation-api-1.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/jboss-logging-3.3.2.Final.jar"/>
+	<classpathentry kind="lib" path="lib/json-path-2.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/json-smart-2.3.jar"/>
+	<classpathentry kind="lib" path="lib/jsonassert-1.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/jul-to-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-api-2.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-to-slf4j-2.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/logback-classic-1.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/logback-core-1.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/logkit-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/mockito-core-2.15.0.jar"/>
+	<classpathentry kind="lib" path="lib/objenesis-2.6.jar"/>
+	<classpathentry kind="lib" path="lib/poi-3.6.jar"/>
+	<classpathentry kind="lib" path="lib/servlet-api-2.3.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/snakeyaml-1.19.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop-5.0.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-beans-5.0.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-boot-2.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-boot-autoconfigure-2.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-boot-starter-2.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-boot-starter-freemarker-2.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-boot-starter-json-2.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-boot-starter-logging-2.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-boot-starter-test-2.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-boot-starter-tomcat-2.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-boot-starter-web-2.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-boot-test-2.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-boot-test-autoconfigure-2.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-5.0.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-support-5.0.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core-5.0.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-expression-5.0.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-jcl-5.0.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-test-5.0.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-web-5.0.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-webmvc-5.0.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/tomcat-embed-core-8.5.34.jar"/>
+	<classpathentry kind="lib" path="lib/tomcat-embed-el-8.5.34.jar"/>
+	<classpathentry kind="lib" path="lib/tomcat-embed-websocket-8.5.34.jar"/>
+	<classpathentry kind="lib" path="lib/tools-1.6.0.jar"/>
+	<classpathentry kind="lib" path="lib/validation-api-2.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="lib/xmlunit-core-2.5.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

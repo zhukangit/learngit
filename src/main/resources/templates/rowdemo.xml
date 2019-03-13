@@ -1,0 +1,64 @@
+<Row ss:AutoFitHeight="0">
+<Cell ss:MergeDown="${reqList?size+resList?size+1}" ss:StyleID="s66"><Data ss:Type="String">${method}</Data></Cell>
+<Cell ss:MergeDown="${reqList?size+resList?size+1}" ss:StyleID="s79"><Data ss:Type="String">${url}</Data></Cell>
+<Cell ss:MergeDown="${reqList?size-1}" ss:StyleID="s67"><Data ss:Type="String">输入参数</Data></Cell>
+    <#if (reqList?size > 0)>
+        <Cell ss:StyleID="s72"><Data ss:Type="String">${reqList[0].level!}</Data></Cell>
+        <Cell ss:StyleID="s72"><Data ss:Type="String">${reqList[0].name!}</Data></Cell>
+        <Cell ss:StyleID="s72"><Data ss:Type="String">0-1</Data></Cell>
+        <Cell ss:StyleID="s72"><Data ss:Type="String">${reqList[0].description!}</Data></Cell>
+        <Cell ss:StyleID="s72"/>
+    <#else>
+        <Cell ss:StyleID="s72"><Data ss:Type="String"></Data></Cell>
+        <Cell ss:StyleID="s72"><Data ss:Type="String"></Data></Cell>
+        <Cell ss:StyleID="s72"><Data ss:Type="String"></Data></Cell>
+        <Cell ss:StyleID="s72"><Data ss:Type="String"></Data></Cell>
+        <Cell ss:StyleID="s72"/>
+    </#if>
+</Row>
+    <#list reqList as req>
+        <#if (req_index > 0)>
+            <Row ss:AutoFitHeight="0">
+            <Cell ss:Index="4" ss:StyleID="s72"><Data ss:Type="String">${req.level!}</Data></Cell>
+            <Cell ss:StyleID="s72"><Data ss:Type="String">${req.name!}</Data></Cell>
+            <Cell ss:StyleID="s72"><Data ss:Type="String">0-1</Data></Cell>
+            <Cell ss:StyleID="s72"><Data ss:Type="String">${req.description!}</Data></Cell>
+            <Cell ss:StyleID="s72"><Data ss:Type="String"></Data></Cell>
+            </Row>
+        </#if>
+    </#list>
+<Row ss:AutoFitHeight="0">
+<Cell ss:Index="3" ss:StyleID="s74"><Data ss:Type="String">输入报文样例</Data></Cell>
+<Cell ss:MergeAcross="4" ss:StyleID="s87"><Data ss:Type="String">${reqDemo!}</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell ss:Index="3" ss:MergeDown="${resList?size}" ss:StyleID="s67"><Data ss:Type="String">输出参数</Data></Cell>
+    <#if (resList?size > 0)>
+            <Cell ss:StyleID="s72"><Data ss:Type="String">${resList[0].level!}</Data></Cell>
+            <Cell ss:StyleID="s72"><Data ss:Type="String">${resList[0].name!}</Data></Cell>
+            <Cell ss:StyleID="s72"><Data ss:Type="String">${resList[0].showTime!}</Data></Cell>
+            <Cell ss:StyleID="s72"><Data ss:Type="String">${resList[0].description!}</Data></Cell>
+            <Cell ss:StyleID="s72"><Data ss:Type="String">${resList[0].value!}</Data></Cell>
+        <#else>
+            <Cell ss:StyleID="s72"><Data ss:Type="String"></Data></Cell>
+            <Cell ss:StyleID="s72"><Data ss:Type="String"></Data></Cell>
+            <Cell ss:StyleID="s72"><Data ss:Type="String"></Data></Cell>
+            <Cell ss:StyleID="s72"><Data ss:Type="String"></Data></Cell>
+            <Cell ss:StyleID="s72"><Data ss:Type="String"></Data></Cell>
+    </#if>
+</Row>
+    <#list resList as res>
+        <#if (res_index > 0)>
+            <Row ss:AutoFitHeight="0">
+                <Cell ss:Index="4" ss:StyleID="s72"><Data ss:Type="String">${res.level!}</Data></Cell>
+                <Cell ss:StyleID="s72"><Data ss:Type="String">${res.name!}</Data></Cell>
+                <Cell ss:StyleID="s72"><Data ss:Type="String">${res.showTime!}</Data></Cell>
+                <Cell ss:StyleID="s72"><Data ss:Type="String">${res.description!}</Data></Cell>
+                <Cell ss:StyleID="s72"/>
+            </Row>
+        </#if>
+    </#list>
+<Row ss:AutoFitHeight="0">
+<Cell ss:Index="3" ss:StyleID="s67"><Data ss:Type="String">输出报文样例</Data></Cell>
+<Cell ss:MergeAcross="4" ss:StyleID="s72"><Data ss:Type="String">${resDemo!}</Data></Cell>
+</Row>

@@ -1,0 +1,627 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>2006-09-16T00:00:00Z</Created>
+  <LastSaved>2019-03-05T08:29:06Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <RemovePersonalInformation/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <SupBook>
+   <Path>引用字典</Path>
+   <SheetName>引用字典</SheetName>
+  </SupBook>
+  <WindowHeight>7980</WindowHeight>
+  <WindowWidth>14805</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="超链接">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#0000FF"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#8DB4E2" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#8DB4E2" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#8DB4E2" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s68" ss:Parent="s62">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s69">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s70">
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s71">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s72">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s74">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s75">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s77">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s78">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s79">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s80">
+   <Borders/>
+   <Font ss:FontName="Segoe UI" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="API">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="100" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="99.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="135.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="81"/>
+   <Column ss:AutoFitWidth="0" ss:Width="51"/>
+   <Column ss:AutoFitWidth="0" ss:Width="75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="193.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="39">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">序号</Data></Cell>
+    <Cell ss:StyleID="s64"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Color="#000000">API名称&#10;</Font></B><Font
+       html:Size="8" html:Color="#FF0000">(全局唯一)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s64"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Color="#000000">api_id&#10;</Font></B><Font
+       html:Size="8" html:Color="#FF0000">(格式:API_&lt;引擎名大写&gt;_T00001)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s64"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Color="#000000">资源名称&#10;</Font></B><Font
+       html:Size="8" html:Color="#FF0000">（英文，小驼峰）</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">提供方</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">调用地址_ip端口</Data></Cell>
+    <Cell ss:StyleID="s64"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Color="#000000">调用地址_基础路径&#10;</Font></B><Font
+       html:Size="8" html:Color="#FF0000">（IP+端口+基础路径。不用写swagger里面的path那一层)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s65"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Color="#000000">超时时间&#10;</Font></B><Font
+       html:Size="8" html:Color="#FF0000">(秒)</Font></ss:Data></Cell>
+   </Row>
+    <#list apiList as al>
+      <#if (al_index >= 0)>
+			   <Row ss:AutoFitHeight="0">
+				    <Cell ss:StyleID="s66"><Data ss:Type="String">${al_index!}</Data></Cell>
+				    <Cell ss:StyleID="s66"><Data ss:Type="String">${al.name!}</Data></Cell>
+				    <Cell ss:StyleID="s66"><Data ss:Type="String">${al.apiCode!}</Data></Cell>
+				    <Cell ss:StyleID="s66"><Data ss:Type="String">${al.apiResName!}</Data></Cell>
+				    <Cell ss:StyleID="s66"><Data ss:Type="String">${al.apiCenterName!}</Data></Cell>
+				    <Cell ss:StyleID="s66"><Data ss:Type="String">${al.apiProdUrl!}</Data></Cell>
+				    <Cell ss:StyleID="s66"><Data ss:Type="String">${al.apiPath!}</Data></Cell>
+				    <Cell ss:StyleID="s66"><Data ss:Type="String">${al.apiResTime!}</Data></Cell>
+				  </Row>     
+	   	<#else>
+				   	<Row ss:AutoFitHeight="0">
+				    <Cell ss:StyleID="s66"/>
+				    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+				    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+				    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+				    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+				    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+				    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+				    <Cell ss:StyleID="s66"/>
+				    </Row> 
+	   	</#if>
+    </#list>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Zoom>160</Zoom>
+   <Selected/>
+   <LeftColumnVisible>1</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C8,R1C5,R20C5:R1048576C5</Range>
+   <Type>List</Type>
+   <Value>引用字典!#REF!</Value>
+  </DataValidation>
+ </Worksheet>
+ <Worksheet ss:Name="API动作(与API一对多)">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="${apiActionList?size+1}" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="104.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="153"/>
+   <Row ss:AutoFitHeight="0" ss:Height="39">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">序号</Data></Cell>
+    <Cell ss:StyleID="s64"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Color="#000000">api_id&#10;</Font></B><Font
+       html:Size="8" html:Color="#FF0000">(对应API中的api_id)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">http动作</Data></Cell>
+    <Cell ss:StyleID="s64"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Color="#000000">资源路径&#10;</Font></B><Font
+       html:Size="8" html:Color="#FF0000">(与swagger中path保持一致)</Font></ss:Data></Cell>
+   </Row>
+    <#list apiActionList as aal>
+     <#if (aal_index >= 0)>
+		   <Row ss:AutoFitHeight="0">
+		    <Cell ss:StyleID="s66"><Data ss:Type="String">${aal_index!}</Data></Cell>
+		    <Cell ss:StyleID="s66"><Data ss:Type="String">${aal.apiCode!}</Data></Cell>
+		    <Cell ss:StyleID="s66"><Data ss:Type="String">${aal.apiAction!}</Data></Cell>
+		    <Cell ss:StyleID="s66"><Data ss:Type="String">${aal.apiResPath!}</Data></Cell>   
+		   </Row>    
+    <#else>
+		   	<Row ss:AutoFitHeight="0">
+			    <Cell ss:StyleID="s66"/>
+			    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+			    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+			    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+		    </Row> 
+   </#if>
+   </#list>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Zoom>160</Zoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>9</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C3</Range>
+   <Type>List</Type>
+   <Value>引用字典!#REF!</Value>
+  </DataValidation>
+ </Worksheet>
+ <Worksheet ss:Name="组合包">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="141.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="138"/>
+   <Column ss:AutoFitWidth="0" ss:Width="65.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="39">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">序号</Data></Cell>
+    <Cell ss:StyleID="s64"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Color="#000000">组合包ID&#10;</Font></B><Font
+       html:Size="8" html:Color="#FF0000">(格式:PKG_&lt;引擎名大写&gt;_T00001)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s64"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Color="#000000">组合包名称&#10;</Font></B><Font
+       html:Size="8" html:Color="#FF0000">(格式：SH_&lt;引擎缩写大写&gt;***组合包)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s64"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Color="#000000">api_id&#10;</Font></B><Font
+       html:Size="8" html:Color="#FF0000">(对应API中的api_id)</Font></ss:Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Zoom>180</Zoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="授权">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Column ss:AutoFitWidth="0" ss:Width="49.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="113.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="122.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="78.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="39">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">序号</Data></Cell>
+    <Cell ss:StyleID="s64"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Color="#000000">签约ID&#10;</Font></B><Font
+       html:Size="8" html:Color="#FF0000">(格式:AGRE_&lt;APPID&gt;_T00001)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s64"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Color="#000000">组合包ID&#10;</Font></B><Font
+       html:Size="8" html:Color="#FF0000">(对应组合包中的组合包ID)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s64"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Color="#000000">应用ID&#10;</Font></B><Font
+       html:Size="8" html:Color="#FF0000">(见引用字典中APP字典.APP_ID)</Font></ss:Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Zoom>170</Zoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="引用字典">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="40" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="91.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="143.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">提供方</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">中文释义</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">提供方</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">crmbas</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">基础管理引擎</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s75"><Data ss:Type="String">http动作</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">GET</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">超时时间</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">crmchm</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">渠道工作支持引擎</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s76"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">POST</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">crmcpc1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">CPC配置引擎(增量)</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s76"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">PUT</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">crmcpc2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">CPC配置引擎(存量)</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s76"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">PATCH</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">crmcus</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">客户引擎</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s77"/>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">DELETE</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">crmmsc</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">营服协同引擎</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">crmopt</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">销售支持引擎</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">60</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">crmord</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">受理引擎</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">crmordapp</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">CRM受理门户</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">crmordweb</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">CRM受理门户</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">crmpay</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">支付引擎</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">crmres</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">营销资源引擎</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">crmsrv</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">客户服务引擎</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">crmcep</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">CRM协议转换</Data></Cell>
+   </Row>
+   <Row ss:Index="18" ss:AutoFitHeight="0" ss:Height="14.25"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s75"><Data ss:Type="String">APP字典</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">APP_ID</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">APP描述</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">657</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海云网融合门户</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">859</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海营服协同引擎</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">418</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海10000号门户</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">463</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海翼受理 </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">287</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海测试应用 </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">399</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海政企销售派 </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">826</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海政企销售门户</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">605</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海IVR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">454</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海翼销售</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">776</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海代理商门户 </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">447</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海CRM </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">410</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海电渠综合管理平台 </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">409</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海CRM受理门户 </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">450</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海营维合一承包助手 </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">787</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海CRM受理引擎 </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">746</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海通信院RSS </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">747</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海业务稽核收入保障系统 </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">619</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海客户服务中心 </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">448</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海微信客服 </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">464</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">上海无纸化 </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">441</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">上海CRM客户引擎 </Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>19</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+     <RangeSelection>R20C2:R40C3</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
